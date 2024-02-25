@@ -1,4 +1,15 @@
+body {
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+}
+
 header {
+  background-color: #1f2937;
+  padding: 16px;
+}
+
+nav {
   background-color: #1f2937;
 }
 
@@ -6,6 +17,10 @@ h1 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  float: left;
 }
 
 .text,
@@ -14,12 +29,25 @@ a {
   color: #e5e7eb;
 }
 
+.text {
+  width: 400px;
+  height: 100px;
+}
+
+button.signUp {
+  float: left;
+}
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  float: right;
 }
 
 .logo {
@@ -27,8 +55,103 @@ ul {
   color: #f9faf8;
 }
 
+.firstimg {
+  width: 400px;
+  height: 500px;
+  float: right;
+}
 button.signUp {
   background: #3882f6;
   color: white;
   border: 1px solid #3882f6;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+  gap: 20px;
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: extra bold;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  max-width: 200px;
+  padding: 10px;
+  border: 3px solid #1f2937;
+  border-radius: 10%;
+}
+.action {
+  background-color: #3882f6;
+}
+
+.qoute {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+p.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  padding: 10%;
+}
+
+.action {
+  width: 200%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  flex-direction: column;
+}
+.textaction {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.paction {
+  color: white;
+  float: inline-end;
+  padding: 10px;
+}
+
+button.learn {
+  background: #3882f6;
+  color: white;
+  border: 1px solid #f6f8fa;
+}
+footer {
+  background-color: #1f2937;
+  color: white;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
