@@ -7,6 +7,7 @@ body {
 header {
   background-color: #1f2937;
   padding: 16px;
+  height: 650px;
 }
 
 nav {
@@ -17,10 +18,9 @@ h1 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  float: left;
+  position: absolute;
+  left: 145px;
+  top: 100px;
 }
 
 .text,
@@ -30,40 +30,56 @@ a {
 }
 
 .text {
-  width: 400px;
-  height: 100px;
+  width: 600px;
+  height: 200px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
 }
 
-button.signUp {
-  float: left;
-}
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  font-size: 18px;
+  color: #e5e7eb;
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 30px;
   gap: 16px;
-  float: right;
+  right: 150px;
+  position: absolute;
 }
 
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  position: absolute;
+  left: 150px;
+  padding: 30px;
 }
 
 .firstimg {
   width: 400px;
   height: 500px;
-  float: right;
+  position: absolute;
+  top: 150px;
+  right: 150px;
 }
 button.signUp {
   background: #3882f6;
   color: white;
   border: 1px solid #3882f6;
+  top: 70%;
+  left: 150px;
+  position: absolute;
 }
 
 .container {
@@ -98,25 +114,23 @@ h4 {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100px;
   padding: 10%;
+  right: 100px;
 }
 
 p.author {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  right: 150px;
 }
 
 .container2 {
-  display: flex;
   padding: 10%;
+  height: 100px;
 }
 
 .action {
-  width: 200%;
+  width: 74%;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -124,22 +138,28 @@ p.author {
   padding: 15px;
   color: white;
   flex-direction: column;
+  position: absolute;
 }
 .textaction {
   font-weight: bold;
   font-size: 20px;
-  padding: 10px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
 }
 .paction {
   color: white;
-  float: inline-end;
-  padding: 10px;
+  padding: 15px;
+  position: absolute;
+  top: 50px;
 }
 
 button.learn {
   background: #3882f6;
   color: white;
   border: 1px solid #f6f8fa;
+  position: absolute;
+  right: 100px;
 }
 footer {
   background-color: #1f2937;
